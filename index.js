@@ -11,7 +11,11 @@ const alarmRing = () => {
 
 //setTimeout(alarmRing, 5000);
 
+
 let prodleva = Number(prompt('Zadej časovou prodlevu v sekundách.'))
 
 setTimeout(alarmRing, prodleva*1000);
 
+button.addEventListener('click', () => {
+alarmElm.classList.remove('alarm--ring');
+})

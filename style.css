@@ -47,3 +47,13 @@ body {
 .alarm--ring {
   animation: ring 100ms 50;
 }
+
+button {
+  margin: 10px;
+  padding: 5px;
+  background-color: slategrey;
+  color: cornsilk;
+  
+}
+
+
